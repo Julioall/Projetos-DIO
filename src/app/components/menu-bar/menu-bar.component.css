@@ -1,0 +1,28 @@
+.nav-bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+.logo{
+    width: 40px
+}
+.social-icon img{
+    width: 20px;
+    margin-left: 20px;
+}
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-container a {
+    text-decoration: none;
+    padding-top: 9px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 40px;
+}
