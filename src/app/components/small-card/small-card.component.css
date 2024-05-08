@@ -1,9 +1,5 @@
-.small-card-container {
-  display: flex;
-  margin-bottom: 5vh;
-}
 .small-card-photo {
-  width: 100%;
+  width: 37.5%;
   margin-right: 5vh;
 }
 .small-card-photo img {
@@ -32,3 +28,17 @@
   margin-bottom: 5vh;
 }
 
+.small-card-container-horizontal {
+  display: flex;
+  margin-bottom: 5vh;
+}
+
+.small-card-container-vertical {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+.small-card-container-vertical .small-card-photo {
+ width: 100%;
+}

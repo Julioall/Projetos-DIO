@@ -1,0 +1,24 @@
+* {
+  background-color: #ececec;
+  background-color: #121212;
+  color: #fff;
+}
+
+.content-container {
+  margin: 15vh;
+  margin-top: 0px;
+  padding: 10vh;
+  background-color: #121212;
+}
+.content-header .content-title{
+    background-color: #121212;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.content-main{
+    display: flex;
+    justify-content: space-between;
+}
+.content-body{
+    width: 100%;
+}

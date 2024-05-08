@@ -1,12 +1,14 @@
-<div class="small-card-container-border">
-  <div class="small-card-container">
-    <div class="small-card-photo">
-      <img src="../../../assets/img/thumb_article15.jpg" alt="">
+<a href="#">
+  <div class="small-card-container-border">
+    <div [ngClass]="{'small-card-container-horizontal': orientation === 'horizontal', 'small-card-container-vertical': orientation === 'vertical'}" >
+      <div class="small-card-photo">
+        <img src={{photoCover}} alt="">
+      </div>
+      
+      <div class="small-card-title">
+        <small>{{publicationDate}}</small>
+        <h1>{{cardTitle}}</h1>
+      </div>
     </div>
-    
-    <div class="small-card-title">
-      <small>Marco 27, 2024</small>
-      <h1>Empresa de Tecnologia Lança Óculos de Realidade Aumentada com Recursos Avançados</h1>
-    </div>
-  </div>
-</div>
+  </div>  
+</a>

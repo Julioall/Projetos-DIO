@@ -1,21 +1,26 @@
-.articles-container{
-    display: flex;
-    justify-content: space-between;
+body {
+  background-color: #ececec;
 }
-.articles_main{
-    background-color: #121212;
-    width: 50%;
-    margin-right: 10vh;
-    margin-top: 10vh;
-    margin-right: 10vh;
+
+.home-container {
+  margin: 15vh;
+  margin-top: 0px;
+  padding: 10vh;
 }
+
+.articles-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles_main {
+  width: 50%;
+  margin-right: 10vh;
+  margin-top: 10vh;
+  margin-right: 10vh;
+}
+
 .articles_others {
-    background-color: #121212;
-    width: 50%;
-    margin-top: 10vh;
-}
-.home-container{
-    margin: 15vh;
-    margin-top: 0px;
-    padding: 10vh;
+  width: 50%;
+  margin-top: 10vh;
 }

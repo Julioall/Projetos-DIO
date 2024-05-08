@@ -1,0 +1,21 @@
+<div class="content-container">
+  <app-menu-bar></app-menu-bar>
+  <div class="content-header">
+    <img src={{photoCover}} alt="">
+    <div class="content-title">
+      <h1>{{ title }}</h1>
+      <small>{{publicationDate}}</small>
+    </div>
+  </div>
+  <div class="content-main">
+    <div class="content-body">
+      {{content}}
+    </div>
+    <div class="others-articles">
+      <app-small-card [orientation]='"vertical"'></app-small-card>
+      <app-small-card [orientation]='"vertical"'></app-small-card>
+      <app-small-card [orientation]='"vertical"'></app-small-card>
+      <app-small-card [orientation]='"vertical"'></app-small-card>
+    </div>
+  </div>
+</div>
