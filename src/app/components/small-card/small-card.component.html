@@ -1,5 +1,6 @@
-<a href="#">
-  <div class="small-card-container-border">
+
+<div class="small-card-container-border">
+  <a [routerLink]="['content', id]">
     <div [ngClass]="{'small-card-container-horizontal': orientation === 'horizontal', 'small-card-container-vertical': orientation === 'vertical'}" >
       <div class="small-card-photo">
         <img src={{photoCover}} alt="">
@@ -7,8 +8,9 @@
       
       <div class="small-card-title">
         <small>{{publicationDate}}</small>
-        <h1>{{cardTitle}}</h1>
+        <h1>{{title}}</h1>
       </div>
     </div>
-  </div>  
-</a>
+  </a>
+</div>  
+

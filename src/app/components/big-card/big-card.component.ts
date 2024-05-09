@@ -9,11 +9,14 @@ export class BigCardComponent implements OnInit {
   @Input()
   public photoCover?: string;
   @Input()
-  public cardTitle?: string;
+  public title?: string;
   @Input()
-  public cardDescription?: string;
+  public description?: string;
   @Input()
   public publicationDate?: string;
+  @Input()
+  public id?: string;
+  
   constructor() {}
 
   ngOnInit() {
@@ -24,11 +27,11 @@ export class BigCardComponent implements OnInit {
     if (!this.photoCover) {
       this.photoCover = 'https://via.placeholder.com/980x600';
     }
-    if (!this.cardTitle) {
-      this.cardTitle = 'Title';
+    if (!this.title) {
+      this.title = 'Title';
     }
-    if (!this.cardDescription) {
-      this.cardDescription = 'Description';
+    if (!this.description) {
+      this.description = 'Description';
     }
     if (!this.publicationDate) {
       this.publicationDate = 'Publication Date';

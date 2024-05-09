@@ -11,9 +11,12 @@ export class SmallCardComponent implements OnInit {
   @Input()
   publicationDate?: string;
   @Input()
-  cardTitle?: string;
+  title?: string;
+  @Input()
+  public id?: string;
   @Input() 
   orientation: 'horizontal' | 'vertical' = 'horizontal';
+  
   constructor() {}
 
   ngOnInit() {
@@ -24,8 +27,8 @@ export class SmallCardComponent implements OnInit {
     if (!this.photoCover) {
       this.photoCover = 'https://via.placeholder.com/490x300';
     }
-    if (!this.cardTitle) {
-      this.cardTitle = 'Title';
+    if (!this.title) {
+      this.title = 'Title';
     }
     if (!this.publicationDate) {
       this.publicationDate = 'Publication Date';

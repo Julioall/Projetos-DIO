@@ -23,7 +23,7 @@
   color: #ffffff;
   opacity: 0.8;
 }
-.small-card-container-border{
+.small-card-container-border a{
   border-bottom: 2px solid rgb(236, 236, 236, .2);
   margin-bottom: 5vh;
 }

@@ -7,14 +7,25 @@
   </div>
   <div class="articles-container">
     <div class="articles_main">
-      <app-big-card></app-big-card>
+    <app-big-card
+      [id]="mainArticle.id"
+      [title]="mainArticle.title"
+      [description]="mainArticle.description"
+      [publicationDate]="mainArticle.publicationDate"
+      [photoCover]="'../../../assets/img/' + mainArticle.photo">
+    </app-big-card>
     </div>
     <div class="articles_others">
-      <app-small-card></app-small-card>
-     
-      <app-small-card></app-small-card>
-     
-      <app-small-card></app-small-card>
+      <div *ngFor="let card of cardsData" class="small-card-container-border">
+        <a [routerLink]="['content', card.id]">
+          <app-small-card
+            [id]="card.id"
+            [title]="card.title"
+            [publicationDate]="card.publicationDate"
+            [photoCover]="'../../../assets/img/' + card.photo">
+          </app-small-card>
+        </a>
+      </div>
     </div>
   </div>
 </div>
