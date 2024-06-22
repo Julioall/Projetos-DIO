@@ -1,0 +1,40 @@
+# Sistema de Hospedagem
+
+Este repositório contém um sistema simples de hospedagem, desenvolvido como parte de um laboratório para demonstrar a construção de um aplicativo de reserva em um hotel. O sistema utiliza classes para representar hóspedes, quartos e reservas, estabelecendo relacionamentos entre eles e calculando valores conforme especificado.
+
+## Funcionalidades Implementadas
+
+1. **Cadastro de Hóspedes**
+   - Permite adicionar, atualizar, listar e excluir informações de hóspedes.
+
+2. **Cadastro de Quartos**
+   - Facilita a gestão de quartos, incluindo adicionar, atualizar, listar e excluir operações.
+
+3. **Gestão de Reservas**
+   - Permite aos usuários adicionar novas reservas associando hóspedes a quartos específicos, calcular o valor total da reserva com desconto de 10% para períodos superiores a 10 dias, além de atualizar e excluir reservas existentes.
+
+## Estrutura do Projeto
+
+- **Models**: Contém as entidades principais do sistema (`Cliente`, `Quarto`, `Reserva`) com suas propriedades e métodos.
+  
+- **Repositórios**: Classes que gerenciam o acesso aos dados das entidades, implementando operações básicas de CRUD.
+  
+- **Serviços**: Classes que implementam a lógica de negócios e interação com o usuário para cada entidade.
+
+- **ConsoleApp**: Aplicação de console para interagir com o sistema através de menus e comandos.
+
+## Como Usar
+
+1. **Configuração Inicial**
+   - Clone o repositório para sua máquina local.
+   - Abra o projeto em um ambiente de desenvolvimento compatível com C#.
+
+2. **Execução**
+   - Compile e execute o projeto ConsoleApp.
+   - Utilize os menus interativos para gerenciar clientes, quartos e reservas.
+
+3. **Operações Disponíveis**
+   - **Clientes**: Adicionar, listar, atualizar e excluir informações de hóspedes.
+   - **Quartos**: Adicionar, listar, atualizar e excluir informações de quartos.
+   - **Reservas**: Adicionar, listar, atualizar e excluir reservas associando hóspedes a quartos, com cálculo automático do valor total da reserva.
+
