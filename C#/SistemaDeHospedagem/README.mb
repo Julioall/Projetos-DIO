@@ -38,3 +38,41 @@ Este repositório contém um sistema simples de hospedagem, desenvolvido como pa
    - **Quartos**: Adicionar, listar, atualizar e excluir informações de quartos.
    - **Reservas**: Adicionar, listar, atualizar e excluir reservas associando hóspedes a quartos, com cálculo automático do valor total da reserva.
 
+# Sistema de Celulares POO
+
+Este repositório contém um sistema simples de gerenciamento de celulares, desenvolvido como parte de um laboratório para demonstrar a construção de um sistema de abstração e manipulação de celulares utilizando Programação Orientada a Objetos (POO). O sistema permite a criação de diferentes modelos de celulares com comportamentos distintos e promove o reuso de código através da herança e polimorfismo.
+
+## Funcionalidades Implementadas
+
+1. **Abstração de Celulares**
+   - Representa um celular com propriedades e comportamentos comuns, como marca, modelo e sistema operacional.
+
+2. **Modelos de Celulares Específicos**
+   - Implementação de modelos específicos de celulares (ex: iPhone, Samsung) com características e comportamentos próprios, como tipos de câmeras e métodos de chamada.
+
+3. **Gerenciamento de Celulares**
+   - Permite criar novos modelos de celulares, exibir informações sobre eles e realizar ações como ligar ou tirar fotos, com base nas implementações de cada modelo.
+
+## Estrutura do Projeto
+
+- **Models**: Contém as entidades principais do sistema (`Celular`, `Iphone`, `Samsung`), com suas propriedades e métodos.
+  
+- **Repositórios**: Gerencia os dados de celulares, possibilitando a adição de novos modelos e a manutenção dos existentes.
+
+- **Serviços**: Implementa a lógica de negócios relacionada aos celulares, como métodos para ligar, tirar fotos e exibir informações.
+
+- **ConsoleApp**: Aplicação de console para interagir com o sistema através de menus e comandos, permitindo a visualização e manipulação de celulares e seus comportamentos.
+
+## Como Usar
+
+1. **Configuração Inicial**
+   - Clone o repositório para sua máquina local.
+   - Abra o projeto em um ambiente de desenvolvimento compatível com C# (ex: Visual Studio).
+
+2. **Execução**
+   - Compile e execute o projeto ConsoleApp.
+   - Utilize os menus interativos para visualizar e gerenciar celulares de diferentes marcas e modelos.
+
+3. **Operações Disponíveis**
+   - **Celulares**: Adicionar novos celulares, exibir informações sobre modelos, e simular ações como ligar ou tirar fotos, com comportamentos específicos para cada modelo.
+   - **Modelos Específicos**: Testar os comportamentos distintos de modelos como iPhone e Samsung, com suas implementações particulares de métodos como chamada e fotografia.
