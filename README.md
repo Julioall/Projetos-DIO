@@ -23,7 +23,7 @@ Cada projeto está organizado em uma pasta separada com seu próprio README deta
 - **Descrição**: Um sistema simples de hospedagem, desenvolvido como parte de um laboratório para demonstrar a construção de um aplicativo de reserva em um hotel. O sistema utiliza classes para representar hóspedes, quartos e reservas, estabelecendo relacionamentos entre eles e calculando valores conforme especificado.
 - **Tecnologias**: C#
 
-### 3. [Sistema de Hospedagem](https://github.com/Julioall/Projetos-DIO/tree/main/C%23/SistemaCelularPOO)
+### 3. [Sistema de Celular](https://github.com/Julioall/Projetos-DIO/tree/main/C%23/SistemaCelularPOO)
 - **Descrição**: Um sistema simples de gerenciamento de celulares, desenvolvido como parte de um laboratório para demonstrar a construção de um sistema de abstração e manipulação de celulares utilizando Programação Orientada a Objetos (POO)
 - **Tecnologias**: C#
 
