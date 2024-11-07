@@ -27,11 +27,6 @@ Cada projeto está organizado em uma pasta separada com seu próprio README deta
 - **Descrição**: Um sistema simples de gerenciamento de celulares, desenvolvido como parte de um laboratório para demonstrar a construção de um sistema de abstração e manipulação de celulares utilizando Programação Orientada a Objetos (POO)
 - **Tecnologias**: C#
 
-
-## Como Contribuir
-
-Se você encontrou algum problema ou tem alguma sugestão para melhorar os projetos, sinta-se à vontade para abrir uma issue ou enviar um pull request. Sua contribuição é muito bem-vinda!
-
 ## Contato
 
 Se você quiser entrar em contato comigo, pode me encontrar no [LinkedIn](https://www.linkedin.com/in/julioall/) ou enviar um email para [julio.all@outlook.com](mailto:julio.all@outlook.com).
