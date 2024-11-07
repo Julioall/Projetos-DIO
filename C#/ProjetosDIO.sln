@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaCelular", "SistemaCelularPOO\SistemaCelular.csproj", "{B5A73CD1-F4B1-431D-B9FB-1AA2C6FDF72A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaDeHospedagem", "SistemaDeHospedagem\SistemaDeHospedagem.csproj", "{CEA1C8A9-2596-450A-9E99-4F46FBE4AFF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5A73CD1-F4B1-431D-B9FB-1AA2C6FDF72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A73CD1-F4B1-431D-B9FB-1AA2C6FDF72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A73CD1-F4B1-431D-B9FB-1AA2C6FDF72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A73CD1-F4B1-431D-B9FB-1AA2C6FDF72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA1C8A9-2596-450A-9E99-4F46FBE4AFF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA1C8A9-2596-450A-9E99-4F46FBE4AFF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA1C8A9-2596-450A-9E99-4F46FBE4AFF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA1C8A9-2596-450A-9E99-4F46FBE4AFF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {477163E7-00F2-485B-91E9-72A534EC1680}
+	EndGlobalSection
+EndGlobal
