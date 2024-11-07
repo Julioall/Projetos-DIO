@@ -19,8 +19,12 @@ Cada projeto está organizado em uma pasta separada com seu próprio README deta
 - **Descrição**: Este é um projeto de teste desenvolvido com base na Formação de Angular da DIO para criar um blog dinâmico em Angular 14, alimentado por dados simulados (mokados)..
 - **Tecnologias**: Angular, TypeScripty, HTML e CSS.
 
-### 2. [Sistema de Hospedagem](https://github.com/Julioall/Projetos-DIO/tree/main/C%23/SISTEMA-DE-HOTEL/SistemaDeHospedagem)
+### 2. [Sistema de Hospedagem](https://github.com/Julioall/Projetos-DIO/tree/main/C%23/SistemaDeHospedagem)
 - **Descrição**: Um sistema simples de hospedagem, desenvolvido como parte de um laboratório para demonstrar a construção de um aplicativo de reserva em um hotel. O sistema utiliza classes para representar hóspedes, quartos e reservas, estabelecendo relacionamentos entre eles e calculando valores conforme especificado.
+- **Tecnologias**: C#
+
+### 3. [Sistema de Hospedagem](https://github.com/Julioall/Projetos-DIO/tree/main/C%23/SistemaCelularPOO)
+- **Descrição**: Um sistema simples de gerenciamento de celulares, desenvolvido como parte de um laboratório para demonstrar a construção de um sistema de abstração e manipulação de celulares utilizando Programação Orientada a Objetos (POO)
 - **Tecnologias**: C#
 
 
